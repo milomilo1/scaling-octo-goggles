@@ -1,0 +1,112 @@
+@keyframes TranslateX {
+    0% {
+transform: translateX(0);
+    }
+    100% {
+transform: translateX(100%);
+    }
+}
+
+
+@keyframes Scale {
+    0% {
+transform: Scale(100%);
+    }
+    100% {
+transform: scale(120%);
+    }
+}
+@keyframes TranslateY {
+    0% {
+transform: translateY(-15%);
+    }
+    50% { 
+ transform: translateY(0%);
+    }
+    100% {
+transform: translateY(10%);
+    }
+}
+
+@keyframes Rotate {
+    0% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(15deg);
+    }
+    
+}
+@keyframes ScaleTwo {
+    0% {
+        transform: scale(95%);
+    }
+    100% {
+        transform: scale(105%);
+    }
+}
+@keyframes ScaleTres {
+        0% {
+            transform: scale(80%);
+        }
+        100% {
+            transform: scale(100%);
+        }
+    }
+
+
+.logo {
+    animation: Scale 2s;
+}
+h1 {
+    animation: ScaleTres 2s;
+}
+
+.link-cards:hover {
+    color: rgb(156, 221, 5);
+animation: Scale 1s;
+}
+.img-cards {
+    animation: Rotate 3s infinite;
+}
+.button-shopper:hover {
+animation: Scale 1s;
+background-color: antiquewhite;
+
+}
+.button-buy:hover {
+    color: rgb(156, 221, 5);
+}
+.box-shopp:hover {
+    color: rgb(156, 221, 5);
+    animation: ScaleTwo 1s;
+}
+.icon-fb:hover {
+    animation: ScaleTwo 1s;
+}
+.icon-tw:hover {
+    animation: ScaleTwo 1s;
+}
+.icon-ig:hover {
+    animation: ScaleTwo 1s;
+}
+.wsp-icon:hover {
+    animation: ScaleTwo 1s;
+}
+.navbar-items:hover {
+color: rgb(156, 221, 5);
+}
+.carrito h3:hover,
+.menu-list-container h3:hover {
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: rgb(156, 221, 5);
+}
+.carro:hover {
+animation: ScaleTwo 1s;
+}
